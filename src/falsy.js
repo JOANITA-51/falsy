@@ -7,6 +7,7 @@
  * Use else to specify a block of code to be executed, if the same condition is false
  * Since Falsy values evaluate to false,
  * else  block of code will be executed 
+ * Falsy values are  undefined, null, NaN, 0, ""  and false 
  * @param {value} input - User's input value to be checked
  * @return {string} 
  * The return statement stops execution and returns whatever value is at the right of the return statement
@@ -18,5 +19,8 @@ let checkIfFalsy = (value) =>{
   if (value)return 'truthy input'
 else return 'falsy input'
 }
-let checkValue = checkIfFalsy(null)
-console.log(checkValue)
+
+
+module.exports= {
+  checkIfFalsy
+}
