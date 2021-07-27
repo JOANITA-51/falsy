@@ -1,0 +1,22 @@
+{
+  "name": "falsy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "falsy.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOANITA-51/falsy.git"
+  },
+  "author": "JOANITA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOANITA-51/falsy/issues"
+  },
+  "homepage": "https://github.com/JOANITA-51/falsy#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
